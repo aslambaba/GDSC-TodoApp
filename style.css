@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+    overflow-x: hidden;
+}
+.MainContainer{
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+.MainContainer h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+/* Add Todo Section Styling */
+.AddTodo{
+    margin: 60px 0px;
+}
+.AddTodo input{
+    padding: 8px 10px;
+    width: 40%;
+}
+.AddTodo button{
+    padding: 8px 10px;
+    width: 10%;
+}
+.MainContainer h4{
+    font-family: 'Courier New', Courier, monospace;
+}
+/* Todolist Section Styling */
+.TodoList{
+    background-color: white;
+    width: 40%;
+    padding: 20px 20px;
+    height: 50vh;
+    border: 1px solid gray;
+    display: inline-block;
+}
+.SingleTodo{
+    text-align: left;
+    border: 1px solid black;
+    padding: 0px 5px;
+    background-color: azure;
+    border-radius: 3px;
+    margin: 10px 0px;
+}
+.SingleTodo p{
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+}
+.SingleTodo button{
+    border: none;
+    background-color: #d91f1fe3;
+    color: white;
+    border-radius: 2px;
+    padding: 3px 5px;
+    float: right;
+    margin-top: 10px;
+}
