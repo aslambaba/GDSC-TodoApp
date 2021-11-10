@@ -58,3 +58,9 @@ body{
     float: right;
     margin-top: 10px;
 }
+
+footer{
+    padding: 10px 0px;
+    margin: 10px 0x;
+    font-family: 'Courier New', Courier, monospace;
+}
